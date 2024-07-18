@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-family: "roboto", sans-serif;  
+}
+
+/*.PaymentContainer {
+  border: 1px solid red;
+  width: 100%;
+  margin: 0px auto;
+  box-shadow: inset;>
+}
+.PaymentContainer h2 {
+  margin: 30px auto;
+  font-size: 30px;
+  text-align: center;
+}*/
+
+.Paris{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color:  #d9d9d9;
+}
+
+.DateTime{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color: #d9d9d9;
+}
+
+.Total{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color: #d9d9d9;
+}
+
+.CardNumber{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color: #d9d9d9;
+}
+
+.CardHolder{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color: #d9d9d9;
+}
+.CVV{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.CVV .CVV {
+  padding: 20px;
+  width: 45%;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.ExpiredDate{
+  width: 45%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #d9d9d9;
+  text-align: right;
+}
+
+.Confirm{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color:green;
+}
+
+.Cancel{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color:green;
+}

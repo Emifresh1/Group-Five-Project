@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-family: "roboto", sans-serif;  
+}
+
+.Miss{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 30px ;
+    border-radius: 10px ;
+    background-color: #d9d9d9;
+  }
+
+  @media screen and (max-width: 768px){
+    .Miss{
+      /* display: flex; */
+      justify-content: space-between;
+      width: 100%;
+      /* margin: 20px auto; */
+      padding: 10px;
+      font-size: 20px ;
+      border-radius: 10px ;
+    }
+  }
+
+
+.DateTime{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color: #d9d9d9;
+}
+
+@media screen and (max-width: 768px){
+  .DateTime{
+    /* display: flex; */
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px ;
+   
+
+  }
+  
+}
+
+.Airport{
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   margin: 20px auto;
+   padding: 20px;
+   font-size: 30px;
+   border-radius: 15px;
+   background-color: #d9d9d9; 
+   text-align: inherit; 
+   font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .Airport{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 100%;
+   
+  
+    /* text-align: inherit;  */
+ }
+}
+.Depature{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color:  #d9d9d9;
+}
+@media screen and (max-width: 768px) {
+.Depature{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px ;
+  border-radius: 10px ;
+  background-color:  #d9d9d9;
+}
+}
+
+.flightinnerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  text-align: start;
+  align-content: end;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+}
+@media screen and (max-width: 768px) {
+.flightinnerContainer {
+  width: 100%;
+}
+}
+.flightinnerContainer .way {
+  border-right: 1px solid black;
+  font-size: 30px;
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+.flightinnerContainer .way {
+  font-size: 20px;
+  width: 100%;
+}
+}
+
+.Modify{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px ;
+  border-radius: 10px ;
+  background-color:green;
+}
+@media screen and (max-width: 768px) {
+.Modify{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px ;
+  text-align: center;
+
+}
+}
+.Modify strong {
+  text-align: center;
+  margin: 0px auto;
+}
